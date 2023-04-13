@@ -1,0 +1,50 @@
+.vertical-nav{
+    min-width:13rem;
+    width:13rem;
+    height:100vh;
+    position:fixed;
+    top:0px;
+    left:0px;
+
+}
+.page-content{
+    width:calc(100%-13rem);
+    margin-left:13rem;
+    
+}
+@media (max-width:576px ) {
+    .vertical-nav{
+        min-width: 7rem ;
+        width:7rem;
+        background-color: aqua;
+    }
+    .page-content{
+    width:calc(100%-7rem);
+    margin-left:7rem;
+    }
+    .graphs{
+    display:flex;
+    flex-direction: column;
+}
+#map{
+    width:400px;
+    height:200px;
+}
+    
+}
+#sidebar{
+    background-color: rgb(111, 113, 113);
+}
+.mo-6 {
+    margin-top: 200px !important;
+}
+.adjust:hover{
+   background-color:white;
+}
+#map{
+    height:540px;
+}
+#accordion{
+    display:flex;
+    flex-direction: column;
+}
